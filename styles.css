@@ -1,0 +1,25 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sketch-pad {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 800px;
+    height: 800px;
+}
+
+.button {
+    padding: 10px 25px;
+    border: 3px solid rgb(15, 124, 226);
+    border-radius: 5px;
+    margin-top: 15px;
+    color: rgb(15, 124, 226);
+}
+
+.button:hover {
+    background: gray;
+}
